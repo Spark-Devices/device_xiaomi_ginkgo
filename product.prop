@@ -52,6 +52,9 @@ ro.charger.enable_suspend=true
 # Data
 persist.data.df.dev_name=rmnet_usb0
 
+# Gboard configuration
+ro.com.google.ime.kb_pad_port_b=1
+
 # Graphics
 debug.sf.latch_unsignaled=1
 persist.demo.hdmirotationlock=false
