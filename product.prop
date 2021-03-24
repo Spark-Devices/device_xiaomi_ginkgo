@@ -98,6 +98,10 @@ ro.se.type=HCE,UICC
 # Netflix
 ro.netflix.bsp_rev=Q6125-17995-1
 
+# Perfetto
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+
 # Radio
 DEVICE_PROVISIONED=1
 persist.vendor.radio.enable_temp_dds=true
