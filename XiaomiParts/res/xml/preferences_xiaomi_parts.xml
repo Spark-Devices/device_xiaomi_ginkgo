@@ -115,6 +115,10 @@
             android:title="@string/vibration_strength_title"
             app:min="1"
             app:units="%" />
+
+       <Preference
+        android:key="header"
+        android:layout="@layout/header_animation" />
     </PreferenceCategory>
 
 </PreferenceScreen>
