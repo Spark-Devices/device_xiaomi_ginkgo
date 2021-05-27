@@ -2,9 +2,9 @@ genfscon sysfs /touchpanel u:object_r:sysfs_touchpanel:s0
 genfscon sysfs /module/battery_saver/parameters/enabled                                                                                                                                                                        u:object_r:sysfs_battery_saver:s0
 
 # USB fastcharge
-genfscon sysfs /kernel/fast_charge/force_fast_charge                                                                                                                                                                           u:object_r:sysfs_fcharge:s0
+genfscon sysfs /kernel/fast_charge/force_fast_charge      u:object_r:sysfs_fcharge:s0
 
-# Wakeup sysfs nodes
+# Wakeup source stats
 genfscon sysfs /devices/platform/soc/1610000.qcom,msm-eud/wakeup/wakeup                                                                                                                                                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-00/1c40000.qcom,spmi:qcom,pm6125@0:qcom,pm6125_rtc/rtc/rtc0/wakeup                                                                                         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-00/1c40000.qcom,spmi:qcom,pm6125@0:qcom,pm6125_rtc/wakeup/wakeup                                                                                           u:object_r:sysfs_wakeup:s0
@@ -19,6 +19,8 @@ genfscon sysfs /devices/platform/soc/5c0c000.qcom,cci/5c0c000.qcom,cci:qcom,came
 genfscon sysfs /devices/platform/soc/5c0c000.qcom,cci/5c0c000.qcom,cci:qcom,camera@3/video4linux/video6/wakeup                                                                                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/5c0c000.qcom,cci/5c0c000.qcom,cci:qcom,camera@4/video4linux/video7/wakeup                                                                                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/diag/diag/wakeup                                                                                                                                                                               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/fastrpc/adsprpc-smd/wakeup                                                                                                                                                                     u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/fastrpc/adsprpc-smd-secure/wakeup                                                                                                                                                              u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/input/input2/wakeup                                                                                                                                                                            u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/misc/msm_aac/wakeup                                                                                                                                                                            u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/misc/msm_alac/wakeup                                                                                                                                                                           u:object_r:sysfs_wakeup:s0
