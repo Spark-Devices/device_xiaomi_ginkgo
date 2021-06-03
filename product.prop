@@ -54,6 +54,7 @@ persist.data.df.dev_name=rmnet_usb0
 
 # Gboard configuration
 ro.com.google.ime.kb_pad_port_b=1
+ro.com.google.ime.corner_key_r=35
 
 # Graphics
 debug.sf.latch_unsignaled=1
