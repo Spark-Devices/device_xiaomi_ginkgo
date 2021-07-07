@@ -4,8 +4,8 @@
         "repository": "spkal01/android_hardware_qcom_audio",
         "target_path": "hardware/qcom-caf/sm8150/audio",
         "branch": "fire"
-    },
-     {
+    }, 
+    {
         "remote": "github",
         "repository": "ArrowOS/android_hardware_qcom_media",
         "target_path": "hardware/qcom-caf/sm8150/media",
@@ -22,6 +22,12 @@
         "repository": "ArrowOS/android_vendor_qcom_opensource_power",
         "target_path": "vendor/qcom/opensource/power",
         "branch": "arrow-11.0"
+    },
+    {
+       "remote": "github",
+       "repository": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
+       "target_path": "vendor/qcom/opensource/healthd-ext",
+       "branch": "lineage-18.1"
     },
     {
         "remote": "devices",
