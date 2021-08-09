@@ -881,4 +881,6 @@
     <!-- Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
 
+    <!-- Show the network traffic monitor on statusbar even if the device has a notch -->
+    <bool name="config_forceShowNetworkTrafficOnStatusBar">true</bool>
 </resources>
